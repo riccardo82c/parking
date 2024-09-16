@@ -7,14 +7,7 @@
           <div class="flex space-x-7">
             <div>
               <a href="#" class="flex items-center py-4 px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
-                  <!-- Cerchio principale -->
-                  <circle cx="50" cy="50" r="45" fill="none" stroke="black" stroke-width="5" />
-
-                  <!-- P stilizzata -->
-                  <path d="M40 65 V35 A10 10 0 0 1 50 25 H60 A10 10 0 0 1 60 45 H50 V65 Z" fill="black" />
-                </svg>
-
+                <img width="50" height="50" src="./assets//icons8-parking-50.png" alt="parking_logo"/>
 
                 <!-- <span class="font-semibold text-gray-500 text-lg">Logo</span> -->
               </a>
