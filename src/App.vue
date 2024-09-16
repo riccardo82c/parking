@@ -6,28 +6,36 @@
           <div class="flex space-x-7">
             <div>
               <a href="#" class="flex items-center py-4 px-2">
-                <span class="font-semibold text-gray-500 text-lg">Logo</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+                  <rect x="10" y="10" width="80" height="80" fill="none" stroke="black" stroke-width="5" />
+                  <rect x="30" y="20" width="40" height="60" fill="none" stroke="black" stroke-width="5" />
+                  <circle cx="35" cy="75" r="5" fill="black" />
+                  <circle cx="65" cy="75" r="5" fill="black" />
+                  <circle cx="35" cy="25" r="3" fill="black" />
+                  <circle cx="65" cy="25" r="3" fill="black" />
+                </svg>
+
+                <!-- <span class="font-semibold text-gray-500 text-lg">Logo</span> -->
               </a>
             </div>
             <div class="hidden md:flex items-center space-x-1">
-              <router-link to="/" class="py-4 px-2 text-gray-500 font-semibold hover:text-cyan-500 transition duration-300">Home</router-link>
-              <router-link to="/chi-siamo" class="py-4 px-2 text-gray-500 font-semibold hover:text-cyan-500 transition duration-300">Chi Siamo</router-link>
-              <router-link to="/servizi" class="py-4 px-2 text-gray-500 font-semibold hover:text-cyan-500 transition duration-300">Servizi</router-link>
-              <router-link to="/contatti" class="py-4 px-2 text-gray-500 font-semibold hover:text-cyan-500 transition duration-300">Contatti</router-link>
+              <router-link to="/"
+                class="py-4 px-2 text-gray-500 font-semibold hover:text-cyan-500 transition duration-300">Home</router-link>
+              <router-link to="/chi-siamo"
+                class="py-4 px-2 text-gray-500 font-semibold hover:text-cyan-500 transition duration-300">Chi
+                Siamo</router-link>
+              <router-link to="/servizi"
+                class="py-4 px-2 text-gray-500 font-semibold hover:text-cyan-500 transition duration-300">Servizi</router-link>
+              <router-link to="/contatti"
+                class="py-4 px-2 text-gray-500 font-semibold hover:text-cyan-500 transition duration-300">Contatti</router-link>
             </div>
           </div>
           <!-- Menu Hamburger per mobile -->
           <div class="md:hidden flex items-center">
             <button @click="toggleMobileMenu" class="outline-none mobile-menu-button">
-              <svg class="w-6 h-6 text-gray-500 hover:text-cyan-500"
-                x-show="!showMenu"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
+              <svg class="w-6 h-6 text-gray-500 hover:text-cyan-500" x-show="!showMenu" fill="none"
+                stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                stroke="currentColor">
                 <path d="M4 6h16M4 12h16M4 18h16"></path>
               </svg>
             </button>
@@ -46,7 +54,9 @@
     <div class="flex-grow flex items-center justify-center p-4">
       <div class="w-full max-w-4xl mx-auto">
         <div class="relative py-3">
-          <div class="absolute inset-0 bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
+          <div
+            class="absolute inset-0 bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl">
+          </div>
           <div class="relative bg-white shadow-lg sm:rounded-3xl px-4 py-10 sm:p-20">
             <router-view></router-view>
           </div>
