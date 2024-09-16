@@ -8,13 +8,13 @@
             <div>
               <a href="#" class="flex items-center py-4 px-2">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
-                  <rect x="10" y="10" width="80" height="80" fill="none" stroke="black" stroke-width="5" />
-                  <rect x="30" y="20" width="40" height="60" fill="none" stroke="black" stroke-width="5" />
-                  <circle cx="35" cy="75" r="5" fill="black" />
-                  <circle cx="65" cy="75" r="5" fill="black" />
-                  <circle cx="35" cy="25" r="3" fill="black" />
-                  <circle cx="65" cy="25" r="3" fill="black" />
+                  <!-- Cerchio principale -->
+                  <circle cx="50" cy="50" r="45" fill="none" stroke="black" stroke-width="5" />
+
+                  <!-- P stilizzata -->
+                  <path d="M40 65 V35 A10 10 0 0 1 50 25 H60 A10 10 0 0 1 60 45 H50 V65 Z" fill="black" />
                 </svg>
+
 
                 <!-- <span class="font-semibold text-gray-500 text-lg">Logo</span> -->
               </a>
