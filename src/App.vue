@@ -1,5 +1,6 @@
 <template>
   <div class="min-h-screen bg-gray-100 flex flex-col">
+
     <nav class="bg-white shadow-lg">
       <div class="max-w-6xl mx-auto px-4">
         <div class="flex justify-between">
